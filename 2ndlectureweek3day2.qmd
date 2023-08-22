@@ -56,3 +56,40 @@ Santa Barbara is 7 hours behind UTC
 -   what is ISO 8601 format for 12/5/2002 at 2:41am in SB
 
     -   2002-12-05T02:41-07.00
+
+-   LUBRIDATE HELPS WITH ALL OF THIS
+
+    -   parsing date-time data quickly and mostly painlessly
+
+    -   how to convert these easily into ISO 86-1 format without tons of tidying work
+
+-   Classes of date time data
+
+    **date:** calender dates, outcomes of using it ymd/dmy/mdy functions with only date component
+
+-   PSOIXct: date-time that also includes time zone ifnormation and default is UTC outcome of using lubridate functions also includes hours/miin/sec ymd_hms, portable operating system interface- continous ti e
+
+**Wrangling strings:** while avoiding regular expression
+
+**strings:** ordered sequence of characters ex: the 6 cats ate
+
+**regular expressions:** patterns used to match character combinations in strings
+
+**{stringr}** **packages:** provides cohesive set of functions designed to make working with strings as easy as possible
+
+including easier ways to do things like:
+
+-   detecting string patterns
+
+-   replacing string patters
+
+-   counting, collapsing, returning info about strings and more
+
+-   str_detect() : is the patterndeteced? (TRUE/FALSE)
+
+-   str_replace(): replace a string pattern with something else
+
+```{r}
+
+
+```
