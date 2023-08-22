@@ -1,0 +1,58 @@
+---
+title: "week3lecture22ndecture"
+format: html
+editor: visual
+---
+
+## Dates and years 
+
+### simple until: 
+
+-   formats
+
+```{=html}
+<!-- -->
+```
+-   resolutions
+
+-   leap years
+
+-   time zones
+
+-   time of day
+
+-   day of week
+
+## ISO 8601
+
+-   international standard for storing date time that's not ambiguous, only means one thing, international organization for standardization to avoid misinterpretation of numeric representations of dates and times when data is transferred between countries with different conventions
+
+-   4 digit year- 2 digit month - 2 digit day
+
+-   keep leading zeros!
+
+### If I don't have all of these like year or just year and month
+
+-   full date +hours, minutes and second TZD how far or ahead a time zone is from UTC universal trans
+
+-   date part, 2 digit hour, 2 digit minute, 2 digit, time zone designator
+
+-   TZD: Z or +hh:mm or -hh:mm, where +/\_ indicate how far ahead/ behind a time zone is from the UTC time zone like -7:00
+
+-   2016-06-08T09:07 + 8:00, 9:07am on june 8th, 2016 in perth, australia (UTC +8), 8 hours above UTC
+
+### NEED MILITARY TIME
+
+YYYY-MM-DDThh:mm:ssTZD
+
+-7: jsut stands for 7 hour difference not mathematical
+
+Santa Barbara is 7 hours behind UTC
+
+-   what is the ISO 8601 format fo Feb, 18th, 1996 at 8:34 pm PST in SB
+
+    -   1196-02-18T20:34-07:00
+
+-   what is ISO 8601 format for 12/5/2002 at 2:41am in SB
+
+    -   2002-12-05T02:41-07.00
